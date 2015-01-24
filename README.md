@@ -1,5 +1,3 @@
-# jsutilities
-
 JS Utilities
 ============
 
