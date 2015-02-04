@@ -20,3 +20,14 @@ function getRandomInt (min, max) {
 
 
 //Requires jQuery
+
+// RoT13 Email Obfuscation
+// Adapted from http://rot13.florianbersier.com/
+
+<span id="obf" class="qbutton contact">
+	<script>document.getElementById("obf")
+		.innerHTML="<n uers=\"znvygb:uryyb@gvaljunyrperngvir.pbz?fhowrpg=Uryyb\">Pbagnpg Hf</n>"
+		.replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});
+	</script>
+	<noscript><span style="unicode-bidi:bidi-override;direction:rtl;">moc.evitaercelahwynit@olleh</span></noscript>
+</span>
